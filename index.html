@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fritz Carreon - Junior Graphic Designer from the Philippines specializing in sports graphics, product posters, and jersey designs.">
+  <title>Fritz | Graphic Designer Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Blurred animated background -->
+  <div class="bg" aria-hidden="true">
+    <div class="bg__glow"></div>
+    <div class="bg__dots"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" class="nav__link is-active">Home</a>
+      <a href="#about" class="nav__link">About</a>
+      <a href="#works" class="nav__link">Works</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="section hero">
+      <div class="hero__text">
+        <h1 class="title-light">Welcome to <span class="title-grad">My Portfolio</span></h1>
+        <h2 class="role">Graphic Designer</h2>
+        <p class="lead">
+          I’m a junior graphic designer who enjoys creating designs and bringing ideas to life.
+          I love exploring my creativity through editing and designing. I hope you enjoy exploring my creations!
+        </p>
+        <div class="btn-row">
+          <a href="#works" class="btn btn--primary">Explore</a>
+          <a href="#contact" class="btn btn--ghost">Contact</a>
+        </div>
+      </div>
+      <img class="hero__photo" src="assets/images/fritz.png" alt="Portrait of Fritz in a black suit">
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section hero hero--about">
+      <div class="hero__text">
+        <p class="hello">Hello, I’m</p>
+        <h2 class="title-grad title-xl">Fritz!</h2>
+        <h3 class="role">Junior Graphic Designer</h3>
+        <p class="lead">
+          I’m a graphic designer from the Philippines with one year experience in creating visual designs.
+          I specialized in sports graphics, product posters, and jersey designs. I studied at Mallorca Elementary
+          School and Mallorca National High School. I am passionate about my skills, exploring new ideas,
+          and gaining more experience as I continue to grow in the field of graphic design.
+        </p>
+        <ul class="tags">
+          <li>Photoshop</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+      <img class="hero__photo" src="assets/images/fritz-about.png" alt="Portrait of Fritz in a black suit" onerror="this.onerror=null;this.src='assets/images/fritz.png'">
+    </section>
+
+    <!-- WORKS -->
+    <section id="works" class="section works">
+      <div class="work-group">
+        <h2 class="title-grad title-lg">Social Media Design</h2>
+        <div class="grid">
+          <figure class="card"><img src="assets/images/works/social-1.jpg" alt="Monster Energy poster" loading="lazy"></figure>
+          <figure class="card"><img src="assets/images/works/social-2.jpg" alt="BR Duo Tournament poster" loading="lazy"></figure>
+          <figure class="card"><img src="assets/images/works/social-3.jpg" alt="Official partnership poster" loading="lazy"></figure>
+        </div>
+      </div>
+
+      <div class="work-group">
+        <h2 class="title-grad title-lg">Jersey Design</h2>
+        <div class="grid">
+          <figure class="card card--dark"><img src="assets/images/works/jersey-1.jpg" alt="Craft Zone black jersey" loading="lazy"></figure>
+          <figure class="card card--dark"><img src="assets/images/works/jersey-2.jpg" alt="Conqueer Esports white jersey" loading="lazy"></figure>
+          <figure class="card card--dark"><img src="assets/images/works/jersey-3.jpg" alt="Senior Scouts blue jersey" loading="lazy"></figure>
+        </div>
+      </div>
+
+      <div class="work-group">
+        <h2 class="title-grad title-lg">Sports Design</h2>
+        <div class="grid">
+          <figure class="card"><img src="assets/images/works/sports-1.jpg" alt="Vinicius Junior sports poster" loading="lazy"></figure>
+          <figure class="card"><img src="assets/images/works/sports-2.jpg" alt="Shai Gilgeous-Alexander sports poster" loading="lazy"></figure>
+          <figure class="card"><img src="assets/images/works/sports-3.jpg" alt="Lamine Yamal sports poster" loading="lazy"></figure>
+        </div>
+      </div>
+
+      <p class="note">All images presented are fan-made edits created for portfolio purposes only.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2 class="title-grad title-lg">Have a project in mind?</h2>
+      <p class="sub">Feel free to message me! For inquires, collaboration, and partnership.</p>
+
+      <div class="contact__grid">
+        <aside class="panel info">
+          <p>You can contact me via<br><a href="mailto:fritzcarreon@gmail.com">fritzcarreon1@gmail.com</a></p>
+          <p>Or connect with me<br>on social media!</p>
+          <ul class="socials">
+            <li><img src="assets/icons/facebook.svg" alt="" width="28" height="28"> Fritz Carreon</li>
+            <li><img src="assets/icons/instagram.svg" alt="" width="28" height="28"> fz.crn</li>
+            <li><img src="assets/icons/tiktok.svg" alt="" width="28" height="28"> syke.fz0</li>
+            <li><img src="assets/icons/viber.svg" alt="" width="28" height="28"> +639757368182</li>
+            <li><img src="assets/icons/whatsapp.svg" alt="" width="28" height="28"> +639757368182</li>
+          </ul>
+        </aside>
+
+        <form class="panel form" id="contactForm" novalidate>
+          <h3 class="title-grad form__title">Contact Me!</h3>
+          <div class="form__cols">
+            <div class="form__left">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" placeholder="Enter your full name..." required>
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" placeholder="Enter your email..." required>
+              <button type="submit" class="btn btn--primary">Submit</button>
+            </div>
+            <div class="form__right">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+          </div>
+          <p class="form__status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>All rights reserved.</span>
+    <span>Graphic Designer</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
